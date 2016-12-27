@@ -1,18 +1,7 @@
-# Basic Frontend Workflow
-This is my example basic frontent worflow.
-It is based on:
-Gulp,
-LibSass,
-Image minification,
-Browser-Sync,
-Susy/Breakpoint,
-Typi,
-modular-scale
+# Canarian Holiday
+Project files from canarianholiday website
 --------------------------------------------------
-This workflow doesn't include Browserify and Babel.
-
-Just a basic set of Frontend tools.
----------------------------------------------------
+Please check gulpfile.js for running Jekyll on OSX/WINDOWS environment.  
 
 Development:
 ------------
