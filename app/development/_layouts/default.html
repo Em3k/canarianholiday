@@ -1,0 +1,25 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+  {% include head.html %}
+
+  <body class="{% if page.url == '/' %}start{% endif %}{% if page.url contains 'colibri' %}colibri{% endif %}{% if page.url contains 'flamenco' %}flamenco{% endif %}{% if page.url contains 'condor' %}condor{% endif %}{% if page.url contains 'discover' %}discover{% endif %}{% if page.url contains 'plan' %}plan{% endif %}{% if page.url contains 'contact' %}contact{% endif %}">
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    {% include page-loader.html %}
+
+    {% include page-header.html %}
+
+    {{ content }}
+
+    {% include page-side-nav.html %}
+
+    {% include scripts.html %}
+
+    {% include google-analytics.html %}
+
+
+  </body>
+</html>

@@ -1,0 +1,164 @@
+// IF NO JAVASCRIPT FALLBACK [MODERNIZER]
+.no-js .loader-wrapper {
+display: none;
+}
+
+// LOADING SCREEN WRAPPER
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+
+
+      // LOADING SCREEN LOGO
+      .loader-logo {
+          position: absolute;
+          display: block;
+          width: 200px;
+          height: 200px;
+          margin: -100px 0 0 -100px;
+          left: 50%;
+          right: 50%;
+          top: 50%;
+          bottom: 50%;
+          z-index: 1010;
+          background-image: url(../images/logo/canarianholiday_logo.svg);
+          background-position: center center;
+          background-repeat: no-repeat;
+        }
+
+
+      // RING OUTSIDE LOGO
+      // .loader-logo__ring {
+      //     display: block;
+      //     position: absolute;
+      //     left: 50%;
+      //     top: 50%;
+      //     width: 158px;
+      //     height: 158px;
+      //     margin: -79px 0 0 -79px;
+      //     border-radius: 50%;
+      //     border: 6px solid #0d2e31;
+      //     z-index: 1001;
+      // }
+
+      svg#logo_canarianholiday__loader {
+        position: absolute;
+        display: block;
+        width: 200px;
+        height: 200px;
+        margin: -100px 0 0 -100px;
+        left: 50%;
+        right: 50%;
+        top: 50%;
+        bottom: 50%;
+        z-index: 1010;
+      }
+
+
+        // SPINNING LOADER ELEMENT OUTSIDE LOGO
+        .loader {
+            display: block;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            width: 158px;
+            height: 158px;
+            margin: -79px 0 0 -79px;
+            border-radius: 50%;
+            border: 6px solid transparent;
+            border-top-color: $orangeLogoColor;
+            animation: loaderSpin 1s linear infinite;
+            z-index: 1002;
+        }
+
+        // ANIMATION DECLARATION
+        @keyframes loaderSpin {
+            0%   { transform: rotate(0deg); }
+
+            100% { transform: rotate(360deg); }
+        }
+
+
+        // LOADER OVERLAY BACKGROUND DECLARATION
+        .loader-overlay {
+            position: fixed;
+            top: 0;
+            width: 51%;
+            height: 100%;
+            background: $headerBGColor;
+            z-index: 1000;
+            transform: translateX(0);
+
+            // LOADER LEFT CURTAIN STARTING POSITION
+            &.overlay-left { left: 0; }
+
+            // LOADER LEFT CURTAIN STARTING POSITION
+            &.overlay-right { right: 0; }
+         }
+} // <--[.loader-wrapper]
+
+    //////////////////////////////////////
+    // ANIMATION WHEN CONTENT IS LOADED*/
+    /////////////////////////////////////
+
+  .loaded {
+
+        // LEFT OVERLAY ANIMATION
+        .loader-overlay.overlay-left {
+            transform: translateX(-100%);
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+        }
+
+
+        // RIGHT OVERLAY ANIMATION
+        .loader-overlay.overlay-right {
+            transform: translateX(100%);
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+        }
+
+
+        // LOGO DISAPPEAR ANIMATION
+        svg#logo_canarianholiday__loader {
+            opacity: 0;
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+        }
+
+
+
+        // LOGO OUTERR RING DISAPPEAR ANIMATION
+        .loader-logo__ring {
+            opacity: 0;
+            transition: all 0.1s ease-out;
+        }
+
+
+        // LOADER DISAPPEAR ANIMATION
+        .loader {
+            opacity: 0;
+            transition: all 0.3s ease-out;
+        }
+
+
+        // LOADER-WRAPPER DISAPPEAR ANIMATION
+        .loader-wrapper {
+            visibility: hidden;
+            transform: translateY(-100%);
+            transition: all 0.3s 1s ease-out;
+        }
+
+  } // <--[.loader-wrapper]
+
+
+
+
+///////////////////////////////////////////////////////////////////////////
+// // ANIMATION DECLARATION
+// @keyframes loaderSpin {
+//     0%   { transform: rotate(0deg); }
+//
+//     100% { transform: rotate(360deg); }
+// }

@@ -1,0 +1,8 @@
+<svg version="1.1" id="discover-icon-small" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 64 64">
+<title>discover</title>
+<ellipse id="shadow" style="fill:#44ce9f;" cx="32" cy="61.8" rx="8" ry="2"/>
+<path id="outter" style="fill:none;stroke:#44ce9f;stroke-width:2;stroke-miterlimit:10;" d="M32,55c0,0,16-22.7,16-38
+	c0-8.8-7.2-16-16-16S16,8.2,16,17C16,32.3,32,55,32,55z"/>
+<circle id="circle" style="fill:#44ce9f;" cx="32" cy="18" r="8"/>
+</svg>

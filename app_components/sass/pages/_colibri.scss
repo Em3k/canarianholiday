@@ -1,0 +1,13 @@
+body.colibri {
+  background-color: red;
+}
+
+section.colibri__hero {
+  background-color: color(colibri);
+  background-image: url(../images/hero/hero-colibri.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 75vh;
+}

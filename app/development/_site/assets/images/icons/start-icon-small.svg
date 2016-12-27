@@ -1,0 +1,8 @@
+<svg version="1.1" id="start-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<rect id="bottom" y="60" style="fill:#FFFFFF;" width="64" height="4"/>
+<line id="left" style="fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;" x1="12" y1="32" x2="12" y2="60"/>
+<line id="right" style="fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;" x1="52" y1="32" x2="52" y2="60"/>
+<polyline id="doors" style="fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;" points="27,60 27,50 37,50 37,60 "/>
+<polyline id="roof" style="fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;" points="62,34 32,3 2,34 "/>
+</svg>

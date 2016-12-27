@@ -1,0 +1,26 @@
+- name: Colibri
+  city:
+  rooms:
+  description-en: ''
+  description-de: ''
+  description-pl: ''
+  icon-mobile:
+  icon-desktop:
+
+- name: Flamenco
+  city:
+  rooms:
+  description-en: ''
+  description-de: ''
+  description-pl: ''
+  icon-mobile:
+  icon-desktop:
+
+- name: Condor
+  city:
+  rooms:
+  description-en: ''
+  description-de: ''
+  description-pl: ''
+  icon-mobile:
+  icon-desktop:

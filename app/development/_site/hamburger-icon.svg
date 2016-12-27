@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="hamburger-icon" x="0" y="0" viewBox="0 0 28 19" enable-background="new 0 0 28 19" xml:space="preserve">
+  <g id="bars">
+    <rect id="bottom" x="0" y="0" fill="#FFFFFF" width="28" height="3"/>
+    <rect id="middle" x="0" y="16" fill="#FFFFFF" width="28" height="3"/>
+    <rect id="top" x="0" y="8" fill="#FFFFFF" width="28" height="3"/>
+  </g>
+</svg>

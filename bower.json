@@ -1,0 +1,22 @@
+{
+  "name": "basic-web-template",
+  "description": "Basic Web Template",
+  "authors": [
+    "Em3k"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "^2.2.12",
+    "breakpoint-sass": "^2.7.0",
+    "typi": "^2.2.1",
+    "modular-scale": "^2.1.3"
+  }
+}

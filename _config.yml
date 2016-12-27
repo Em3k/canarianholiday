@@ -1,0 +1,12 @@
+name: Canarian Holiday Website
+title: Apartamenty, mieszkania, kwatery, noclegi na Teneryfie - CanarianHoliday.com
+description: Apartamenty, mieszkania, kwatery, noclegi na Teneryfie - CanarianHoliday.com
+baseurl: /
+#markdown: redcarpet
+#highlighter: pygments # or rouge or null
+source: ./app/development/
+destination: ./app/development/_site
+incremental: true
+Auto-regeneration: --watch
+
+exclude: ["node_modules", "bower_components", "gulpfile.js", "package.json"]

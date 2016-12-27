@@ -1,0 +1,17 @@
+<svg version="1.1" id="contact-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64">
+  <g id="speach_clouds">
+
+    <path
+      id="cloud_front"
+      style="fill:#FFFFFF;"
+      d="M47,19v31H23h-2.3l-1.2,1.9l-2.8,4.7l-3.5-4.9L12.1,50H10H4V19H47 M51,15H0v39h10 l7,10l6-10h28V15L51,15z"
+    />
+
+    <polyline
+      id="cloud_back"
+      style="fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;"
+      points="15,11 15,2 62,2 62,38 55,38"
+    />
+
+  </g>
+</svg>

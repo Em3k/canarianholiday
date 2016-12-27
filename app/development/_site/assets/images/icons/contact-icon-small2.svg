@@ -1,0 +1,16 @@
+<svg version="1.1" id="contact-icon-small" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="4.489659e-011" y2="-1">
+	<stop  offset="0" style="stop-color:#656565"/>
+	<stop  offset="0.618" style="stop-color:#1B1B1B"/>
+	<stop  offset="0.6292" style="stop-color:#545454"/>
+	<stop  offset="0.9831" style="stop-color:#3E3E3E"/>
+</linearGradient>
+<g id="contact-icon">
+	<path id="cloud_x5F_front" d="M19.5,62.9L8.6,52H0V16h49v36H22.7L19.5,62.9z M2,50h7.4l9.1,9.1l2.7-9.1H47V18H2V50z"/>
+	<polygon id="cloud_x5F_back" points="64,38 53,38 53,36 62,36 62,2 17,2 17,12 15,12 15,0 64,0 	"/>
+	<rect id="bar_x5F_bottom" x="19" y="39" width="23" height="2"/>
+	<rect id="bar_x5F_middle" x="14" y="33" width="28" height="2"/>
+	<rect id="bar_x5F_top" x="9" y="27" width="33" height="2"/>
+</g>
+</svg>

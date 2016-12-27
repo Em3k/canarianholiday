@@ -1,0 +1,35 @@
+{
+  "name": "basic-frontend-workflow",
+  "version": "0.1.0",
+  "description": "Basic Web Template",
+  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "^2.12.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.6",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "imagemin-pngquant": "^5.0.0",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "build": "browserify app/development/assets/js/app.js -o app/development/assets/js/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ".git"
+  },
+  "author": "Em3k",
+  "license": "ISC"
+}

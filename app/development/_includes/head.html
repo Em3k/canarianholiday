@@ -1,0 +1,40 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!--
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://canarianholiday.com/" />
+  <meta property="og:title" content="Apartamenty, mieszkania, kwatery, noclegi na Teneryfie - CanarianHoliday.com" />
+  <meta property="og:image" content="" />
+  <meta property="og:description" content="Apartamenty, mieszkania, kwatery, noclegi na Teneryfie - CanarianHoliday.com" />
+  -->
+
+  <title>{{ site.title }}</title>
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link href="{{site.baseurl}}assets/css/app.css" rel="stylesheet">
+  <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>
+      $(document).ready(function() {
+
+        $("#hero__carousel").owlCarousel({
+          autoPlay : 5000,
+          singleItem: true
+          // items : 1,
+          // itemsDesktop : false,
+          // itemsDesktopSmall : false,
+          // itemsTablet: false,
+          // itemsMobile : false
+        });
+
+      });
+  </script>
+
+</head>

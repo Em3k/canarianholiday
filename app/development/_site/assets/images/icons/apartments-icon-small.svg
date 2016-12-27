@@ -1,0 +1,14 @@
+<svg version="1.1" id="apartments-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<rect id="bar-bottom" y="60" style="fill:#FFFFFF;" width="64" height="4"/>
+<rect id="bar-top" x="3" y="0" style="fill:#FFFFFF;" width="58" height="4"/>
+<g id="right_x5F_window">
+	<path id="XMLID_20_" style="fill:#FFFFFF;" d="M46,18v15h-8V18H46 M50,14H34v23h16V14L50,14z"/>
+</g>
+<g id="left-window">
+	<path id="XMLID_17_" style="fill:#FFFFFF;" d="M25,18v15h-7V18H25 M29,14H14v23h15V14L29,14z"/>
+</g>
+<g id="building">
+	<path id="XMLID_14_" style="fill:#FFFFFF;" d="M54,10v44H40v-8.7V41h-4h-8h-4v4.3V54H10V10H54 M58,6H6v52h22V45h8v13h22V6L58,6z"/>
+</g>
+</svg>

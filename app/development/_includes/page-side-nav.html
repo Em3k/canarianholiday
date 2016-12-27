@@ -1,0 +1,73 @@
+<!-- SIDE-NAV PANEL -->
+<!-- -------------- -->
+<aside class="js-side-nav side-nav">
+    <nav class="js-side-nav-container side-nav__container">
+
+        <!-- SIDE-NAV HEADER -->
+        <header class="side-nav__header">
+          <!-- SIDE-NAV CLOSE BUTTON "X"  -->
+          <button class="js-menu-hide side-nav__menu-hide"></button>
+        </header>
+
+        <!-- MENU LINKS -->
+        <ul class="side-nav__menu-links">
+
+            <!-- START -->
+            <li class="side-nav__menu-item {% if page.url == '/' %}active{% endif %}"><a class="start" href="{{site.baseurl}}">start</a></li>
+
+            <!-- APARTMENTS -->
+            <li class="side-nav__apartments side-nav__menu-item {% if page.url == '/colibri.html' or page.url == '/flamenco.html' or page.url == '/condor.html' %}active{% endif %}"><a class="apartments" href="#">apartments</a>
+                <ul class="side-nav__apartments-submenu">
+                    <!-- COLIBRI -->
+                    <li class="apartments-colibri">
+                      <a class="colibri side-nav__submenu-item" href="{{site.baseurl}}colibri.html">colibri</a>
+                    </li>
+                    <!-- FLAMENGO -->
+                    <li class="apartments-flamengo">
+                      <a class="flamenco side-nav__submenu-item" href="{{site.baseurl}}flamenco.html">flamenco</a>
+                    </li>
+                    <!-- CONDOR -->
+                    <li class="apartments-condor">
+                      <a class="condor side-nav__submenu-item" href="{{site.baseurl}}condor.html">condor</a>
+                    </li>
+                </ul>
+            </li>
+
+            <!-- TENERIFE -->
+            <li class="side-nav__tenerife side-nav__menu-item {% if page.url == '/discover.html' or page.url == '/plan.html' %}active{% endif %}"><a class="tenerife" href="#">tenerife</a>
+                <ul class="side-nav__tenerife-submenu">
+                    <!-- DISCOVER -->
+                    <li class="apartments-discover">
+                      <a class="discover side-nav__submenu-item" href="{{site.baseurl}}discover.html">discover</a>
+                    </li>
+                    <!-- PLAN -->
+                    <li class="apartments-plan">
+                      <a class="plan side-nav__submenu-item" href="{{site.baseurl}}plan.html">plan</a>
+                    </li>
+                </ul>
+            </li>
+
+            <!-- CONTACT -->
+            <li class="side-nav__contact side-nav__menu-item {% if page.url == '/contact.html' %}active{% endif %}"><a class="contact" href="{{site.baseurl}}contact.html">contact</a></li>
+
+
+        </ul>
+        <!-- LANGUAGE LINKS -->
+        <!-- <ul class="side-nav__language-links">
+          <li><a class="en" href="#">en</a></li>
+          <li><a class="de" href="#">de</a></li>
+          <li><a class="es" href="#">es</a></li>
+          <li><a class="pl lang-active" href="#">pl</a></li>
+        </ul> -->
+        <!-- SOCIAL LINKS -->
+        <ul class="side-nav__social-links">
+          <li><a class="facebook" href="#">facebook</a></li>
+          <li><a class="youtube" href="#">youtube</a></li>
+          <li><a class="instagram" href="#">instagram</a></li>
+        </ul>
+        <!-- SIDE-NAV FOOTER -->
+        <!-- <footer>
+          <p>Copyright&copy; 2016 CanarianHoliday.com</p>
+        </footer> -->
+    </nav>
+</aside>
